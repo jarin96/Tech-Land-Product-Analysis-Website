@@ -19,10 +19,10 @@ const Home = () => {
                 <img src={image} alt="" />
             </div>
             <div className='reviewers-container'>
-                {/* <h1 className='customer text-center'>Customer Review</h1> */}
-                <div className='review-container'>
+                <h1 className='customer text-center'>Customer Review</h1>
+                <div className='review-items-container'>
                     {
-                        reviews.map(review => <HomeReview
+                        reviews.slice(0, 3).map(review => <HomeReview
                             key={review.id}
                             review={review}
                         ></HomeReview>)

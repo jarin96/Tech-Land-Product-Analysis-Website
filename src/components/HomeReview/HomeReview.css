@@ -1,0 +1,17 @@
+.reviewer-details {
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 21px;
+    width: 571px;
+    display: flex;
+}
+
+.reviewer-details img {
+    width: 400px;
+
+}
+
+.reviewer-detail-info {
+    margin: 0;
+}
