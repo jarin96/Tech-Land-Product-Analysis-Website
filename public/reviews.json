@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "TOM BRANT",
+        "review": "Amazing! You will find the best laptop 2022 here and they are trustworthy. It's a good deal",
+        "ratings": 5,
+        "img": "https://pbs.twimg.com/profile_images/378800000662093499/b0b7d34cee5ff84e27ef14148deae95d_400x400.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Linda Allison",
+        "review": "I want to buy a laptop then I visited this website and I got some enlighten from the laptop's here.",
+        "ratings": 4.8,
+        "img": "https://uwmedres.uw.edu/sites/default/files/2021-05/api-bioimage-linda-liu.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Gerardo Tolbert",
+        "review": "Thank you the TechLand site, Because of you I got the best laptop at very cheap price. Thanks once again!",
+        "ratings": 4.9,
+        "img": "https://images.squarespace-cdn.com/content/v1/595e686a3a04113bc66fbe61/1518988123075-K6M3PKA7ISNQQ3U6H851/GerardoIMDB.jpg?format=1000w"
+    },
+    {
+        "id": 4,
+        "name": "Jason Dasilva",
+        "review": "I need a high performance laptop which accommodate all my needs and very happy because they provide high quality laptop's.",
+        "ratings": 5,
+        "img": "https://newmobility.com/wp-content/uploads/2021/06/headshot.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Angel Lessard",
+        "review": "HP Pavilion Sleekbook 15z-b000, I bought this laptop and using it now. Very happy with the performance.",
+        "ratings": 5,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/0/0c/10.12.12DanaBarronByLuigiNovi1.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Josh Goble",
+        "review": "I always get what I want on TechLand website. Useful information and honest reviews. I recommend everyone to visit this website...",
+        "ratings": 4.7,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn6e_aBMgWe1c4gnBN7HEGVKaKg2e8zRLYKg&usqp=CAU"
+    }
+]

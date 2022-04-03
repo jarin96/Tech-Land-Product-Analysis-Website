@@ -1,0 +1,29 @@
+.reviewer {
+    width: 300px;
+    height: 510px;
+    border: 1px solid #dae3e9;
+    border-radius: 10px;
+}
+
+.reviewer img {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.reviewer-info {
+    margin: 0 14px;
+}
+
+.reviewer-info p {
+    margin-bottom: 0;
+}
+
+.reviewer-name {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 7px;
+}

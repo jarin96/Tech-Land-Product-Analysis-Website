@@ -1,0 +1,20 @@
+.shop-container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.products-container {
+    margin-top: 80px;
+}
+
+.products-color {
+    color: blue;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.product-color {
+    color: rgba(66, 0, 37, 0.932);
+    font-weight: 700;
+    font-size: 55px;
+}
