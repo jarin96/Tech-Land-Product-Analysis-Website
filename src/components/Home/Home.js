@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css';
 import image from './images/laptop.png';
 const Home = () => {
+
     return (
         <div className='shop-container'>
             <div className="products-container">
@@ -14,7 +15,10 @@ const Home = () => {
             <div className="product-details">
                 <img src={image} alt="" />
             </div>
-            <h1 className='customer text-center'>Customer Review</h1>
+            <div>
+                <h1 className='customer text-center'>Customer Review</h1>
+            </div>
+
         </div>
     );
 };
