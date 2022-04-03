@@ -14,6 +14,7 @@ const Home = () => {
             <div className="product-details">
                 <img src={image} alt="" />
             </div>
+            <h1 className='customer text-center'>Customer Review</h1>
         </div>
     );
 };
