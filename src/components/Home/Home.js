@@ -1,9 +1,10 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import useProducts from '../../hooks/useProducts';
 import HomeReview from '../HomeReview/HomeReview';
-import Review from '../Review/Review';
+import { faPeopleGroup } from '@fortawesome/free-solid-svg-icons'
 import './Home.css';
 import image from './images/laptop.png';
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
     return (
         <div className='shop-container'>
             <div className="products-container">
+                <h1 className='product-colors'>TECH<span className='product-colors2'> LAND</span></h1>
                 <h1 className='products-color'>Your next Laptop</h1>
                 <h1 className='product-color'>Your best Laptop</h1>
                 <br />
@@ -27,7 +29,7 @@ const Home = () => {
                 <img src={image} alt="" />
             </div>
             <div className='reviewers-container'>
-                <h1 className='customer text-center'>Customer Review</h1>
+                <h1 className='customer text-center'>Customer Review <FontAwesomeIcon icon={faPeopleGroup}></FontAwesomeIcon> </h1>
                 <div className='review-items-container'>
                     {
                         reviews.slice(0, 3).map(review => <HomeReview

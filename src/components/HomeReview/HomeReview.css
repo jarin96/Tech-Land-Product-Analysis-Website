@@ -15,3 +15,12 @@
 .reviewer-detail-info {
     margin: 0;
 }
+
+.reviewer-detail-info .ratings {
+    margin-right: 10px;
+}
+
+.icon-color {
+    color: rgb(252, 218, 27);
+
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Line, LineChart, Pie, PieChart, XAxis, YAxis } from 'recharts';
+import { Area, Bar, BarChart, CartesianGrid, ComposedChart, Funnel, FunnelChart, LabelList, Legend, Line, LineChart, Pie, PieChart, Tooltip, XAxis, YAxis } from 'recharts';
 import './Dashboard.css';
 
 const Dashboard = () => {
@@ -55,6 +55,31 @@ const Dashboard = () => {
                     <Pie data={data} dataKey="investment" nameKey="month" cx="50%" cy="50%" outerRadius={50} fill="rgba(110, 51, 204, 0.945)" />
                     <Pie data={data} dataKey="revenue" nameKey="month" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="rgba(33, 190, 54, 0.945)" label />
                 </PieChart>
+            </div>
+            <div>
+                <h1 className='chart-color'>Investment VS Revenue</h1>
+                <h1 className='chart-color'>MONTH WISE SELL</h1>
+                <div className='chart'>
+                    <ComposedChart width={630} height={350} data={data}>
+                        <XAxis dataKey="month" />
+                        <YAxis />
+                        <Tooltip />
+                        <Legend />
+                        <CartesianGrid stroke="#f5f5f5" />
+                        <Area type="monotone" dataKey="investment" fill="#8884d8" stroke="#8884d8" />
+                        <Bar dataKey="investment" barSize={20} fill="#413ea0" />
+                        <Line type="monotone" dataKey="revenue" stroke="#ff7300" />
+                    </ComposedChart>
+                    <BarChart width={500} height={350} data={data}>
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis dataKey="month" />
+                        <YAxis />
+                        <Tooltip />
+                        <Legend />
+                        <Bar dataKey="revenue" fill="#8884d8" />
+                        <Bar dataKey="investment" fill="#82ca9d" />
+                    </BarChart>
+                </div>
             </div>
         </div>
 
