@@ -31,7 +31,7 @@ const Home = () => {
                 <img src={image} alt="" />
             </div>
             <div className='reviewers-container'>
-                <h1 className='customer text-center'>Customer Review <FontAwesomeIcon icon={faPeopleGroup}></FontAwesomeIcon> </h1>
+                <h1 className='customer text-center'>Customer Reviews <FontAwesomeIcon icon={faPeopleGroup}></FontAwesomeIcon> </h1>
                 <div className='review-items-container'>
                     {
                         reviews.slice(0, 3).map(review => <HomeReview

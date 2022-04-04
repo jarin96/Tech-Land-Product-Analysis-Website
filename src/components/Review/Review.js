@@ -7,6 +7,7 @@ const Review = () => {
     const [reviews, setReviews] = useProducts();
     return (
         <div className='reviewers-container'>
+            <h1 className='p-3'>What Our Customers Say!</h1>
             <div className="review-container">
                 {
                     reviews.map(review => <CustomerReview

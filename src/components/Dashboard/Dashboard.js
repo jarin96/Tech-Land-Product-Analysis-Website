@@ -49,10 +49,12 @@ const Dashboard = () => {
                 <LineChart width={400} height={400} data={data}>
                     <Line dataKey={'sell'}></Line>
                     <XAxis dataKey="month"></XAxis>
+                    <Tooltip></Tooltip>
                     <YAxis></YAxis>
                 </LineChart>
                 <PieChart width={730} height={450}>
                     <Pie data={data} dataKey="investment" nameKey="month" cx="50%" cy="50%" outerRadius={50} fill="rgba(110, 51, 204, 0.945)" />
+                    <Tooltip></Tooltip>
                     <Pie data={data} dataKey="revenue" nameKey="month" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="rgba(33, 190, 54, 0.945)" label />
                 </PieChart>
             </div>
