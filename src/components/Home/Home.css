@@ -8,27 +8,31 @@
 }
 
 .product-colors {
-    color: rgb(19, 12, 1);
+    background: -webkit-linear-gradient(rgb(197, 197, 197), #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 700;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 52px;
 }
 
 .product-colors2 {
-    color: rgb(44, 18, 211);
+    background: -webkit-linear-gradient(rgb(238, 238, 238), #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 700;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 52px;
 }
 
 .products-color {
-    color: rgb(0, 0, 10);
+    color: rgb(13, 13, 209);
     font-weight: 700;
     font-size: 55px;
 }
 
 .product-color {
-    color: rgb(236, 20, 92);
+    color: rgb(0, 0, 0);
     font-weight: 700;
     font-size: 55px;
 }

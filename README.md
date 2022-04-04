@@ -1,5 +1,12 @@
 # Getting Started with Create React App
 
+This project was create with simple bootstrap and vanilla css  [TECH LAND]().
+
+* Users can see most important reviewer's review and product information in the home page. 
+* Users can see detailed all reviewer's review in the Review menu.
+* Users can view important charts of Products data though DashBoard.
+* From About us menu, user can know about Privacy Policy, behavioral tracking and Information Practices of Tech Land Website.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
