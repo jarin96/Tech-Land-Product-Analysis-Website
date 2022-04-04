@@ -23,3 +23,11 @@
     margin-right: 50px;
     padding-top: 140px;
 }
+
+.btn-color {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 190px;
+    margin-top: 10px;
+}

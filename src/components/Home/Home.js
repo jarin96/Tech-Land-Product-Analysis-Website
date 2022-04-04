@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 import useProducts from '../../hooks/useProducts';
 import HomeReview from '../HomeReview/HomeReview';
 import Review from '../Review/Review';
@@ -7,6 +8,12 @@ import './Home.css';
 import image from './images/laptop.png';
 const Home = () => {
     const [reviews, setReviews] = useProducts();
+
+    const navigate = useNavigate();
+    const showAllReviewer = () => {
+        const path = `/reviews`;
+        navigate(path);
+    }
     return (
         <div className='shop-container'>
             <div className="products-container">
@@ -28,6 +35,11 @@ const Home = () => {
                             review={review}
                         ></HomeReview>)
                     }
+                    <div className="d-grid gap-2 btn-color">
+                        <Button onClick={showAllReviewer} variant="primary" size="lg">
+                            See ALL Reviews
+                        </Button>
+                    </div>
                 </div>
             </div>
 
