@@ -43,8 +43,8 @@ const Dashboard = () => {
     ]
     return (
         <div>
-            <h1>MONTH WISE SELL</h1>
-            <h1>Investment VS Revenue</h1>
+            <h1 className='chart-color'>MONTH WISE SELL</h1>
+            <h1 className='chart-color'>Investment VS Revenue</h1>
             <div className='chart'>
                 <LineChart width={400} height={400} data={data}>
                     <Line dataKey={'sell'}></Line>
