@@ -11,7 +11,7 @@ const HomeReview = (props) => {
             <div className="reviewer-info">
                 <div className='reviewer-detail-info'>
                     <h3>{name}</h3>
-                    <h5>Review: {review}</h5>
+                    <h5> {review}</h5>
                     <p><small>Ratings: {ratings} stars</small></p>
                 </div>
             </div>
