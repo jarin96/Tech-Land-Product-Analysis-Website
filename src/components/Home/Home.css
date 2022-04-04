@@ -8,27 +8,27 @@
 }
 
 .product-colors {
-    color: rgb(241, 64, 138);
+    color: rgb(19, 12, 1);
     font-weight: 700;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 52px;
 }
 
 .product-colors2 {
-    color: rgb(102, 100, 216);
+    color: rgb(44, 18, 211);
     font-weight: 700;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 52px;
 }
 
 .products-color {
-    color: blue;
+    color: rgb(0, 0, 10);
     font-weight: 700;
     font-size: 55px;
 }
 
 .product-color {
-    color: rgba(0, 0, 0, 0.932);
+    color: rgb(236, 20, 92);
     font-weight: 700;
     font-size: 55px;
 }

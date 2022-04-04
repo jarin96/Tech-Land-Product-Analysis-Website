@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import useProducts from '../../hooks/useProducts';
 import HomeReview from '../HomeReview/HomeReview';
-import { faPeopleGroup } from '@fortawesome/free-solid-svg-icons'
+import { faPeopleGroup, faLaptopHouse } from '@fortawesome/free-solid-svg-icons'
 import './Home.css';
 import image from './images/laptop.png';
 const Home = () => {
@@ -18,7 +18,9 @@ const Home = () => {
     return (
         <div className='shop-container'>
             <div className="products-container">
-                <h1 className='product-colors'>TECH<span className='product-colors2'> LAND</span></h1>
+                <h1 className='product-colors'> TECH<span className='product-colors2'> LAND </span>
+                    <FontAwesomeIcon icon={faLaptopHouse}></FontAwesomeIcon>
+                </h1>
                 <h1 className='products-color'>Your next Laptop</h1>
                 <h1 className='product-color'>Your best Laptop</h1>
                 <br />

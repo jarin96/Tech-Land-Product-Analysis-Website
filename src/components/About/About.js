@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div>
             <Card className="bg-dark text-blank">
-                <Card.Img src="https://images.unsplash.com/photo-1619252584172-a83a949b6efd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Card image" />
+                <Card.Img src="https://img.freepik.com/free-vector/white-elegant-texture-screensaver_23-2148421855.jpg?w=740" />
                 <Card.ImgOverlay>
                     <Card.Title>Privacy Policy</Card.Title>
                     <Card.Text>
